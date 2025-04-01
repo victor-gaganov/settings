@@ -387,12 +387,12 @@
         <Command>cm_NetworkDisconnect</Command>
       </Hotkey>
       <Hotkey>
-        <Shortcut>Ctrl+Shift+0</Shortcut>
-        <Command>cm_CompareContents</Command>
-      </Hotkey>
-      <Hotkey>
         <Shortcut>Ctrl+I</Shortcut>
         <Command>cm_MarkInvert</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>Shift+Alt+C</Shortcut>
+        <Command>cm_CompareContents</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>Del</Shortcut>
