@@ -1,0 +1,108 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+up",
+        "command": "cursorMove",
+        "args": { "to": "up", "by": "line", "value": 10 },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorMove",
+        "args": { "to": "down", "by": "line", "value": 10 },
+        "when": "editorTextFocus"
+    },    
+    {
+        "key": "ctrl+alt+m",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "-editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+up",
+        "command": "-editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "editor.action.moveLinesDownAction"
+    },
+    {
+        "key": "alt+up",
+        "command": "editor.action.moveLinesUpAction"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-notebook.cell.copyDown",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "alt+d",
+        "command": "editor.action.copyLinesDownAction"
+    },
+    {
+        "key": "ctrl+alt+win+n",
+        "command": "-welcome.showNewFileEntries"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "aichat.newchataction",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-aichat.newchataction"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "workbench.action.debug.selectandstart",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "search.action.openNewEditor",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+alt+pagedown",
+        "command": "workbench.action.decreaseViewSize",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "shift+alt+pageup",
+        "command": "workbench.action.increaseViewSize",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "jupyter.runallcellsabove.palette",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection"
+    }
+    // {
+    //     "key": "ctrl+shift+enter",
+    //     "command": "-editor.action.insertLineBefore",
+    //     "when": "editorTextFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "ctrl+shift+enter",
+    //     "command": "-notebook.cell.insertCodeCellAbove",
+    //     "when": "notebookCellListFocused && !inputFocus"
+    // }
+]
