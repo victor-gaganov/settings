@@ -3,63 +3,32 @@
     {
         "key": "ctrl+up",
         "command": "cursorMove",
-        "args": { "to": "up", "by": "line", "value": 10 },
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 10
+        },
         "when": "editorTextFocus"
     },
     {
         "key": "ctrl+down",
         "command": "cursorMove",
-        "args": { "to": "down", "by": "line", "value": 10 },
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 10
+        },
         "when": "editorTextFocus"
     },    
     {
-        "key": "ctrl+alt+m",
-        "command": "workbench.action.toggleMaximizedPanel"
+        "key": "ctrl+l",
+        "command": "workbench.action.chat.newChat",
+        "when": "chatIsEnabled && inChat"
     },
     {
-        "key": "shift+alt+down",
-        "command": "-editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+up",
-        "command": "-editor.action.copyLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+down",
-        "command": "-editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+up",
-        "command": "-editor.action.moveLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+down",
-        "command": "editor.action.moveLinesDownAction"
-    },
-    {
-        "key": "alt+up",
-        "command": "editor.action.moveLinesUpAction"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "-notebook.cell.copyDown",
-        "when": "notebookEditorFocused && !inputFocus"
-    },
-    {
-        "key": "alt+d",
-        "command": "editor.action.copyLinesDownAction"
-    },
-    {
-        "key": "ctrl+alt+win+n",
-        "command": "-welcome.showNewFileEntries"
-    },
-    {
-        "key": "ctrl+q",
-        "command": "-workbench.action.quickOpenView"
+        "key": "ctrl+l",
+        "command": "-workbench.action.chat.newChat",
+        "when": "chatIsEnabled && inChat"
     },
     {
         "key": "ctrl+l",
@@ -76,9 +45,28 @@
         "when": "!inDebugMode"
     },
     {
+        "key": "ctrl+alt+m",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
         "key": "shift+alt+f",
-        "command": "search.action.openNewEditor",
+        "command": "search.action.openNewEditorFromView",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "findJump.activate",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
         "key": "shift+alt+pagedown",
@@ -91,18 +79,38 @@
         "when": "!editorFocus"
     },
     {
+        "key": "ctrl+alt+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "ctrl+shift+enter",
         "command": "jupyter.runallcellsabove.palette",
         "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection"
-    }
-    // {
-    //     "key": "ctrl+shift+enter",
-    //     "command": "-editor.action.insertLineBefore",
-    //     "when": "editorTextFocus && !editorReadonly"
-    // },
-    // {
-    //     "key": "ctrl+shift+enter",
-    //     "command": "-notebook.cell.insertCodeCellAbove",
-    //     "when": "notebookCellListFocused && !inputFocus"
-    // }
+    }	
 ]
