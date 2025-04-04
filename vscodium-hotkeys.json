@@ -108,4 +108,14 @@
         "command": "-editor.action.insertCursorBelow",
         "when": "editorTextFocus"
     },
+    {
+        "key": "ctrl+alt+l",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
 ]

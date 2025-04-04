@@ -112,5 +112,15 @@
         "key": "ctrl+shift+enter",
         "command": "jupyter.runallcellsabove.palette",
         "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection"
-    }	
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    }
 ]
