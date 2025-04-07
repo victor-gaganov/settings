@@ -19,6 +19,7 @@
     "\u001b[1;2F": "SelectToEndOfLine",
     "\u001b[1;7A": "SpawnMultiCursorUp",
     "\u001b[1;7B": "SpawnMultiCursorDown",
+    "Ctrl-Alt-j": "JumpToMatchingBrace",
     "Ctrl-Alt-l": "SelectLine",
     "Alt-d": "DuplicateLine"
 }

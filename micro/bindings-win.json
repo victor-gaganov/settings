@@ -3,6 +3,7 @@
     "Alt-d": "DuplicateLine",
     "Ctrl-Alt-Up": "SpawnMultiCursorUp",
     "Ctrl-Alt-Down": "SpawnMultiCursorDown",
+    "Ctrl-Alt-j": "JumpToMatchingBrace",
     "Alt-/": "lua:comment.comment",
     "CtrlUnderscore": "lua:comment.comment"
 }
