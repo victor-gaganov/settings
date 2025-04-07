@@ -138,7 +138,7 @@
     {
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
-    }
+    },
     {
         "key": "ctrl+alt+j",
         "command": "editor.action.jumpToBracket",
@@ -148,5 +148,25 @@
         "key": "ctrl+shift+\\",
         "command": "-editor.action.jumpToBracket",
         "when": "editorTextFocus"
-    },    
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "editor.toggleFold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+m ctrl+l",
+        "command": "-editor.toggleFold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+m ctrl+j",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    }
 ]
