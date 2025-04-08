@@ -1,0 +1,83 @@
+{
+    "window.zoomLevel": 1,
+    "git.openRepositoryInParentFolders": "never",
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "task.autoDetect": "on",
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.options.advanced": {
+        "folder": {
+            "statusBarVisibility": "visible"
+        },
+        "configure": {
+            "projectStatusVisibility": "visible"
+        },
+        "configurePreset": {
+            "statusBarVisibility": "visible"
+        },
+        "kit": {
+            "statusBarVisibility": "visible"
+        },
+        "variant": {
+            "statusBarVisibility": "hidden"
+        },
+        "build": {
+            "statusBarVisibility": "visible"
+        },
+        "buildPreset": {
+            "statusBarVisibility": "visible"
+        },
+        "buildTarget": {
+            "statusBarVisibility": "visible"
+        },
+        "ctest": {
+            "statusBarVisibility": "hidden"
+        },
+        "testPreset": {
+            "statusBarVisibility": "hidden"
+        },
+        "launchTarget": {
+            "statusBarVisibility": "visible"
+        },
+        "debug": {
+            "statusBarVisibility": "visible"
+        },
+        "launch": {
+            "statusBarVisibility": "visible"
+        },
+        "workflow": {
+            "statusBarVisibility": "hidden"
+        },
+        "workflowPreset": {
+            "statusBarVisibility": "hidden"
+        },
+        "packagePreset": {
+            "statusBarVisibility": "hidden"
+        }
+    },
+    "autoHide.autoHideSideBar": false,
+    "python.condaPath": "/home/user/miniconda3/bin/conda",
+    "continue.enableTabAutocomplete": false,
+    "continue.showInlineTip": false,
+    "continue.telemetryEnabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.tabs.enabled": false,
+    "git.confirmSync": false,
+    "editor.rulers": [
+        90
+    ],
+    "debug.toolBarLocation": "docked",
+    "julia.symbolCacheDownload": true,
+    "typos.diagnosticSeverity": "Information",
+    "python.venvFolders": [
+        "/home/user/.cache/pypoetry/virtualenvs"
+    ],
+    "editor.suggest.localityBonus": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix"
+}

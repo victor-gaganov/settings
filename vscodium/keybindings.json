@@ -141,6 +141,16 @@
         "when": "editorTextFocus"
     },
     {
+        "key": "ctrl+alt+p",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+j",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
         "key": "ctrl+alt+u",
         "command": "editor.toggleFold",
         "when": "editorTextFocus && foldingEnabled"
@@ -151,13 +161,17 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+alt+p",
-        "command": "editor.unfoldAll",
-        "when": "editorTextFocus && foldingEnabled"
+        "key": "ctrl+alt+i",
+        "command": "-workbench.action.chat.open"
     },
     {
-        "key": "ctrl+k ctrl+j",
-        "command": "-editor.unfoldAll",
-        "when": "editorTextFocus && foldingEnabled"
+        "key": "ctrl+alt+i",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
     },
+    {
+        "key": "ctrl+k ctrl+i",
+        "command": "-editor.action.showHover",
+        "when": "editorTextFocus"
+    }
 ]
