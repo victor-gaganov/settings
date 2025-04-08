@@ -1,0 +1,19 @@
+{
+    "window.customTitleBarVisibility": "windowed",
+    "editor.rulers": [
+        90
+    ],
+    "window.commandCenter": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.options.statusBarVisibility": "compact",
+    "task.autoDetect": "off",
+    "terminal.integrated.tabs.enabled": false,
+    "files.dialog.defaultPath": "/home/user/code",
+    "cursor.cpp.enablePartialAccepts": true,
+    "editor.suggest.localityBonus": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix"
+}

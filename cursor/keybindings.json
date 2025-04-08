@@ -168,5 +168,15 @@
         "key": "ctrl+m ctrl+j",
         "command": "-editor.unfoldAll",
         "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+m ctrl+i",
+        "command": "-editor.action.showHover",
+        "when": "editorTextFocus"
     }
 ]
