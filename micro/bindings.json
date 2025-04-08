@@ -21,5 +21,6 @@
     "\u001b[1;7B": "SpawnMultiCursorDown",
     "Ctrl-Alt-j": "JumpToMatchingBrace",
     "Ctrl-Alt-l": "SelectLine",
+    "ShiftDelete": "DeleteLine",
     "Alt-d": "DuplicateLine"
 }
