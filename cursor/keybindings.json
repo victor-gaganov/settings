@@ -178,5 +178,37 @@
         "key": "ctrl+m ctrl+i",
         "command": "-editor.action.showHover",
         "when": "editorTextFocus"
-    }
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-aichat.newfollowupaction"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "editor.action.inlineSuggest.acceptNextWord",
+        "when": "cppSuggestion && !editorReadonly || inlineSuggestionVisible && !editorReadonly"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "-editor.action.inlineSuggest.acceptNextWord",
+        "when": "cppSuggestion && !editorReadonly || inlineSuggestionVisible && !editorReadonly"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenView",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenView"
+    },
+    {
+        "key": "f6",
+        "command": "-workbench.action.focusNextPart"
+    },
+    {
+        "key": "f6",
+        "command": "workbench.action.navigateEditorGroups",
+        "when": "debugState != 'running'"
+    }    
 ]
