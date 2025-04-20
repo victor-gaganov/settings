@@ -6,7 +6,7 @@ import tomllib
 def copy_file(src: Path, trg: Path):
     src, trg = Path(src), Path(trg)
     os_suffix = "win" if os.name == "nt" else "linux"    
-    os_spec_src = Path(f"{src.with_suffix('')}-{os_suffix}.{src.suffix}")
+    os_spec_src = Path(f"{src.with_suffix('')}-{os_suffix}{src.suffix}")
     if os_spec_src.is_file():
         src = os_spec_src           # we have specialized version
     assert src.is_file(), f"source file not found: {src}"
