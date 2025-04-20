@@ -34,7 +34,7 @@
         "command": "-continue.rejectVerticalDiffBlock"
     },
     {
-        "key": "shift+alt+f",
+        "key": "shift+alt+s",
         "command": "search.action.openNewEditor",
         "when": "editorFocus"
     },
