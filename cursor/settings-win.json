@@ -1,0 +1,43 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": false,
+    "continue.telemetryEnabled": false,
+    "continue.enableTabAutocomplete": true,
+    "cmake.additionalCompilerSearchDirs": [
+        "C:/msys64/mingw32/bin",
+        "C:/msys64/mingw64/bin",
+        "C:/msys64/clang32/bin",
+        "C:/msys64/clang64/bin",
+        "C:/msys64/clangarm64/bin",
+        "C:/msys64/ucrt64/bin"
+    ],
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "Z:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    },
+    "workbench.activityBar.location": "bottom",
+    "cmake.showOptionsMovedNotification": false,
+    "window.zoomLevel": 2,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.customTitleBarVisibility": "windowed",
+    "editor.rulers": [
+        90
+    ],
+    "editor.renderLineHighlight": "none",
+    "git.confirmSync": false,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.tabs.enabled": false, 
+    "editor.suggest.localityBonus": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "cursor.cpp.enablePartialAccepts": true
+}
