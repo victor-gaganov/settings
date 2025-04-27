@@ -36,7 +36,6 @@ def main():
 
     if "doublecmd" in conf:
         doublecmd_path = Path(conf["doublecmd"])
-        copy_file("./doublecmd/doublecmd.xml", doublecmd_path / "doublecmd.xml")
         copy_file("./doublecmd/shortcuts.scf", doublecmd_path / "shortcuts.scf")
 
     if "cursor" in conf:

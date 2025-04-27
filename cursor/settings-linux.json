@@ -15,5 +15,6 @@
     "files.dialog.defaultPath": "/home/user/code",
     "cursor.cpp.enablePartialAccepts": true,
     "editor.suggest.localityBonus": true,
-    "editor.suggestSelection": "recentlyUsedByPrefix"
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.renderLineHighlight": "none"
 }
