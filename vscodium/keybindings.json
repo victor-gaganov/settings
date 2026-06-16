@@ -2,13 +2,21 @@
     {
         "key": "ctrl+up",
         "command": "cursorMove",
-        "args": { "to": "up", "by": "line", "value": 10 },
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 10
+        },
         "when": "editorTextFocus"
     },
     {
         "key": "ctrl+down",
         "command": "cursorMove",
-        "args": { "to": "down", "by": "line", "value": 10 },
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 10
+        },
         "when": "editorTextFocus"
     },
     {
@@ -35,8 +43,7 @@
     },
     {
         "key": "shift+alt+s",
-        "command": "search.action.openNewEditor",
-        "when": "editorFocus"
+        "command": "search.action.openNewEditor"
     },
     {
         "key": "shift+alt+pagedown",
@@ -195,5 +202,15 @@
     {
         "key": "f6",
         "command": "workbench.action.navigateEditorGroups"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+f10",
+        "command": "editor.debug.action.runToCursor",
+        "when": "debugState == 'stopped'"
     }
 ]

@@ -19,7 +19,7 @@
             "value": 10
         },
         "when": "editorTextFocus"
-    },    
+    },
     {
         "key": "ctrl+l",
         "command": "workbench.action.chat.newChat",
@@ -50,11 +50,10 @@
     },
     {
         "key": "shift+alt+s",
-        "command": "search.action.openNewEditorFromView",
-        "when": "editorFocus"
+        "command": "search.action.openNewEditorFromView"
     },
     {
-        "key": "ctrl+[Semicolon]",
+        "key": "ctrl+;",
         "command": "findJump.activate",
         "when": "editorFocus"
     },
@@ -264,5 +263,57 @@
     {
         "key": "ctrl+e",
         "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "-code-runner.stop"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "workbench.debug.action.toggleRepl",
+        "when": "workbench.panel.repl.view.active"
+    },
+    {
+        "key": "ctrl+shift+alt+y",
+        "command": "-workbench.debug.action.toggleRepl",
+        "when": "workbench.panel.repl.view.active"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "composer.toggleVoiceDictation",
+        "when": "!terminalFocus && !editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "-composer.toggleVoiceDictation",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "-workbench.action.focusFirstEditorGroup",
+        "when": "!cursor.chatEditorGroup.enabled"
+    },
+    {
+        "key": "ctrl+f10",
+        "command": "editor.debug.action.runToCursor",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "ctrl+alt+f8",
+        "command": "-editor.action.marker.this",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "-findJump.activate"
     }
 ]

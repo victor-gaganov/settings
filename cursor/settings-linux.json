@@ -16,5 +16,33 @@
     "cursor.cpp.enablePartialAccepts": true,
     "editor.suggest.localityBonus": true,
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    "editor.renderLineHighlight": "none"
+    "editor.renderLineHighlight": "none",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": false,
+    "explorer.confirmDelete": false,
+    "editor.formatOnSave": true,
+    "redhat.telemetry.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "ty.path": [
+        "/home/user/.local/bin/ty"
+    ],
+    "debug.console.collapseIdenticalLines": false,
+    "terminal.integrated.scrollback": 10000,
+    "files.watcherExclude": {
+        "**/.venv": true
+    },
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "ty.completions.autoImport": false,
+    "explorer.confirmDragAndDrop": false,
+    "debug.toolBarLocation": "docked",
+    "git.blame.editorDecoration.enabled": false,
+    "window.autoDetectColorScheme": false,
+    "update.mode": "manual",
+    "cmake.ignoreCMakeListsMissing": true,
+    "sqlfluff.dialect": "postgres",
+    "sqlfluff.format.arguments": [],
+    "workbench.statusBar.visible": false
 }
