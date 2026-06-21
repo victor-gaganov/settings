@@ -44,5 +44,5 @@
     "cmake.ignoreCMakeListsMissing": true,
     "sqlfluff.dialect": "postgres",
     "sqlfluff.format.arguments": [],
-    "workbench.statusBar.visible": false
+    "cursorpyright.analysis.logLevel": "Error"
 }
